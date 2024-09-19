@@ -1,0 +1,60 @@
+.story .designer-story {
+    background-color: #e0f2ff;
+    padding: 5% 10%;
+    align-items: center;
+}
+
+.story img{
+    width: 100%;
+}
+
+.illustrator-story p{
+    font-size: 1.1rem;
+}
+
+.illustrator-story ul {
+    list-style-image: url("../assets/images/icons.png");
+}
+
+.illustrator-story li{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.illustrator-story {
+    padding: 5% 10%;
+    align-items: center;
+}
+
+.designer-story .col {
+    flex: 1;
+}
+
+.designer-story p{
+    font-size: 1.1rem;
+}
+
+.illustrator-story hr {
+    width: 40px;
+    border: 2px solid #000;
+    
+  } 
+  
+.designer-story hr {
+    width: 40px;
+    border: 2px solid #000;
+    
+  }
+
+.designer-story li{
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.designer-story ul {
+    list-style-image: url("../assets/images/icons.png");
+}
+
+.illustrator-story .col {
+    flex: 1;
+}
