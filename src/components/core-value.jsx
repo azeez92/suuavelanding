@@ -10,17 +10,16 @@ function CoreApp() {
     <Container fluid className="core" id="core-value">
       <Row>
         <Col>
-          <h3>Core Value</h3>
+          <h3>Core Values</h3>
           <p className="sub">
-            Our Mission is to create a streamlined network for our prospects to
-            connect, collaborate, and create.
+          
           </p>
           <hr />
         </Col>
       </Row>
 
       <Row className="core-content">
-        <Col xs={12} md={4}>
+        <Col xs={12} lg={4}>
           <h4>
             <FontAwesomeIcon icon={faHandsHelping} className="icon" /> COLLABORATION
           </h4>
@@ -31,7 +30,7 @@ function CoreApp() {
           </p>
         </Col>
 
-        <Col xs={12} md={4}>
+        <Col xs={12} md={6} lg={4}>
           <h4>
             <FontAwesomeIcon icon={faUsers} className="icon" /> INCLUSIVITY
           </h4>
@@ -44,7 +43,7 @@ function CoreApp() {
           </p>
         </Col>
 
-        <Col xs={12} md={4}>
+        <Col xs={12} md={6} lg={4}>
           <h4>
             <FontAwesomeIcon icon={faComments} className="icon" /> COLLABORATION
           </h4>

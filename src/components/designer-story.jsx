@@ -12,16 +12,16 @@ function DesignerStoryApp() {
 
          
 
-      <Row className="illustrator-story" id="illustrator-story">
+      <Row className="artist-story" id="artist-story">
 
     
-    <Col>
+    <Col sm={12} lg={6}>
     
-          <h2><strong>Illustrator Story:</strong> Kay's Story</h2>
+          <h2><strong>Artist Story:</strong> Kay's the Artist</h2>
           <hr />
         
       <p>
-        Kay is a talented African fashion illustrator with a passion for collaboration.
+        Kay is a talented African fashion artist with a passion for collaboration.
         She seeks to work with leading fashion designers and brands, aiming to showcase
         her creativity while earning a fair income. With Suuave, Kay has access to unique benefits, including:
       </p>
@@ -45,7 +45,7 @@ function DesignerStoryApp() {
    </Col>
   
 
-   <Col>
+   <Col sm={12} lg={6}>
    <img
    src={kay}
    />
@@ -55,7 +55,7 @@ function DesignerStoryApp() {
       <Row className="designer-story" id="designer-story">
 
     
-    <Col>
+    <Col sm={12} lg={6}>
     <img
    src={zee}
    />
@@ -63,15 +63,15 @@ function DesignerStoryApp() {
    </Col>
   
 
-   <Col>
+   <Col sm={12} lg={6}>
 
-   <h2><strong>Designer Story:</strong> Zee's Story</h2>
+   <h2><strong>Designer Story:</strong> Zee's Fashion House</h2>
           <hr />
     <p>Zee, a renowned fashion designer, is on a mission to elevate her collections with culture-inspired, Afro-infused urban designs. 
-    To bring her creative vision to life, she seeks talented African fashion illustrators who can seamlessly blend traditional African 
+    To bring her creative vision to life, she seeks talented African fashion artists who can seamlessly blend traditional African 
     influences with modern urban trends, helping her make a bold statement in the fashion world.</p>
 
-    <p>Zee is committed to working with illustrators who offer:</p>
+    <p>Zee is committed to working with artists who offer:</p>
 
     <ul>
         <li> Reward Programs & Promotions: Opportunities for growth and recognition.</li>
@@ -81,7 +81,7 @@ function DesignerStoryApp() {
         <li> Copyright Protection: Ensuring her designs remain unique and secure.</li>
     </ul>
 
-    <p>By collaborating with the right illustrators, Zee aims to create a fashion line that not only celebrates African culture but also 
+    <p>By collaborating with the right artists, Zee aims to create a fashion line that not only celebrates African culture but also 
     pushes the boundaries of contemporary fashion.</p>
   
     </Col>

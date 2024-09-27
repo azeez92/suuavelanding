@@ -1,37 +1,56 @@
 .team-section {
-    background-color: #ffffff;
+  background-color: #ffffff;
+}
+
+.title{
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+
+.team-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-card img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.team-card .card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.title hr {
+  width: 40px;
+  margin: 20px auto;
+  border: 2px solid #000000;
+}
+
+.team-card .card-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  color: #6c757d;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+
+.title{
+    width: 80%;
   }
-  
-  .team-card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .team-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .team-card img {
-    height: 300px;
-    object-fit: cover;
-  }
-  
-  .team-card .card-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-  
-  .team-card .card-subtitle {
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-  }
-  
-  .social-icons a {
-    color: #6c757d;
-    transition: color 0.3s;
-  }
-  
-  .social-icons a:hover {
-    color: #000;
-  }
-  
+
+}

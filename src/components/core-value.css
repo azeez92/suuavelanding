@@ -8,7 +8,7 @@
   }
   
   .core .row:first-child p {
-    text-align: justify;
+    text-align: left;
   }
   
   .core .sub {
@@ -27,7 +27,7 @@
   
   .core p {
     font-size: 1.2rem;
-    text-align: justify;
+    text-align: left;
   }
   
   .core-content {

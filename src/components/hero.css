@@ -1,32 +1,76 @@
-.carousel-item img{
-
+.carousel-item img {
     height: 700px;
     object-fit: cover;
 }
 
-.carousel-caption{
+.carousel-caption {
     text-align: left;
-    width: 28%;
+    width: 35%;
     top: 20%;
+    height: fit-content;
 }
 
-
-.carousel-caption h3{
+.carousel-caption h3 {
     font-size: 3.5rem;
 }
 
-
-.carousel-caption p{
+.carousel-caption p {
     font-size: 1.5rem;
 }
 
 
-.one{
-    color: black !important;
+.one {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 30px;
+    right: 10%;
+    left: auto;
+}
+
+.two {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 30px;
+}
+
+.three {
+    color: rgb(255, 255, 255) !important;
+    background-color: #000000b6;
+    padding: 30px;
+    right: 10%;
+    left: auto;
+}
+
+
+/* Adjust for mobile and tablet screens */
+@media (max-width: 768px) {
+    .carousel-caption {
+        text-align: center; /* Center align text */
+        width: 80%; /* Increase width for smaller screens */
+        top: 30%; /* Adjust position */
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center horizontally */
+    }
+
+    .carousel-caption h3 {
+        font-size: 2rem; /* Adjust font size */
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem; /* Adjust font size */
+    }
 }
 
 
 
-.three{
-    color: rgb(0, 0, 0) !important;
+/* Custom styles for each slide caption */
+
+/* Adjust individual slide captions for mobile and tablet screens */
+@media (max-width: 768px) {
+    .one, .two, .three {
+        width: 80%; /* Make the background container wider */
+        right: auto; /* Remove right alignment */
+        left: 50%;
+        transform: translateX(-50%); /* Center horizontally */
+    }
 }

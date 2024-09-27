@@ -8,20 +8,20 @@
     width: 100%;
 }
 
-.illustrator-story p{
+.artist-story p{
     font-size: 1.1rem;
 }
 
-.illustrator-story ul {
+.artist-story ul {
     list-style-image: url("../assets/images/icons.png");
 }
 
-.illustrator-story li{
+.artist-story li{
     font-size: 1.1rem;
     margin-top: 0.5rem;
 }
 
-.illustrator-story {
+.artist-story {
     padding: 5% 10%;
     align-items: center;
 }
@@ -34,7 +34,7 @@
     font-size: 1.1rem;
 }
 
-.illustrator-story hr {
+.artist-story hr {
     width: 40px;
     border: 2px solid #000;
     
@@ -55,6 +55,6 @@
     list-style-image: url("../assets/images/icons.png");
 }
 
-.illustrator-story .col {
+.artist-story .col {
     flex: 1;
 }

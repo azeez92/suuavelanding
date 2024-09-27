@@ -10,3 +10,19 @@ div .sticky-top {
     top: 0;
     z-index: 999999999;
 }
+
+button{
+    background-color: #e0f2ff !important;
+    color: black !important;
+    border: none !important;
+}
+
+button:hover{
+    background-color: #000000 !important;
+    color: #e0f2ff !important;
+    
+}
+
+.main-menu a{
+    font-size: 1.2rem;
+}

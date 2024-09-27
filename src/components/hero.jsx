@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import firstSlide from '../assets/images/African-Artistry-Global-Fashion.jpg';
-import secondSlide from '../assets/images/Inspire-Create-Celebrate.jpg';
-import thirdSlide from '../assets/images/slide-33.jpg';
+import firstSlide from '../assets/images/slide-1.jpg';
+import secondSlide from '../assets/images/slide-2.jpg';
+import thirdSlide from '../assets/images/slide-3.jpg';
 import './hero.css'
 
 function HeroApp() {
@@ -15,7 +15,7 @@ function HeroApp() {
         />
         <Carousel.Caption className='one'>
           <h3>African Artistry, Global Fashion.</h3>
-          <p>Connecting fashion designers with top African illustrators to foster creativity, innovation, and cultural expression in the fashion industry.</p>
+          <p>Connecting fashion designers and brands with African fashion artists to inspire collaboration for optimum creativity, productivity and exposure.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -26,7 +26,8 @@ function HeroApp() {
         />
         <Carousel.Caption className='two'>
           <h3>Inspire. Create. Celebrate.</h3>
-          <p>Discover the power of collaboration in fashion, where creativity meets cultural expression, and groundbreaking designs are brought to life through the synergy between designers and top African illustrators.</p>
+          <p>Unlock the potential of fashion collaboration, where designers and African artists merge
+          creativity, culture, and expertise to create groundbreaking, culturally-rich designs.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

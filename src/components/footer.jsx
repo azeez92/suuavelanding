@@ -11,7 +11,8 @@ const FooterApp = () => {
           <Col md={3} sm={6} className="mb-4">
             <h4>About Us</h4>
             <p>
-              At Suuave, we connect African fashion illustrators with designers and brands to inspire collaboration and create groundbreaking fashion.
+            Suuave connects fashion designers and brands with African fashion artists to inspire
+            collaboration for optimum productivity, creativity, and exposure.
             </p>
           </Col>
 
@@ -20,7 +21,7 @@ const FooterApp = () => {
             <ul className="list-unstyled">
               <li><a href="#" className="text-white">Home</a></li>
               <li><a href="#" className="text-white">About</a></li>
-              <li><a href="#" className="text-white">Services</a></li>
+              <li><a href="#demo" className="text-white">Demo</a></li>
               <li><a href="#" className="text-white">Contact</a></li>
             </ul>
           </Col>
@@ -31,16 +32,16 @@ const FooterApp = () => {
             <p>Follow us on:</p>
             <div className="social-icons">
               <a href="https://x.com/suuaveftx" target="_blank" rel="noopener noreferrer" className="text-white me-2">
-                <i className="fab fa-twitter"></i>
+                <i className="fab fa-twitter icone"></i>
               </a>
               <a href="https://www.instagram.com/suuaveftx" target="_blank" rel="noopener noreferrer" className="text-white me-2">
-                <i className="fab fa-instagram"></i>
+                <i className="fab fa-instagram icone"></i>
               </a>
               <a href="https://youtube.com/@SuuaveFTx?si=bQzx3E_J2z1UsC5H" target="_blank" rel="noopener noreferrer" className="text-white me-2">
-                <i className="fab fa-youtube"></i>
+                <i className="fab fa-youtube icone"></i>
               </a>
               <a href="https://www.linkedin.com/company/suuave/" target="_blank" rel="noopener noreferrer" className="text-white me-2">
-                <i className="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin icone"></i>
               </a>
             </div>
           </Col>
@@ -48,9 +49,9 @@ const FooterApp = () => {
           <Col md={3} sm={6} className="mb-4">
             <h4>Join Our Waitlist</h4>
             <p>
-              Connect with top African illustrators and designers. Be the first to know when we launch!
+              Connect with top African artists and designers. Be the first to know when we launch!
             </p>
-            <a href="#" className="btn btn-primary">Join Now</a>
+            <a href="https://docs.google.com/forms/d/1sSpMR0Xq5UYZU61T_xdU-k7NcDbpCBOf2puhSlVXNVU/viewform?edit_requested=true" className="btn button">Join Now</a>
           </Col>
         </Row>
       </Container>

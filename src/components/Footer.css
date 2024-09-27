@@ -1,3 +1,44 @@
 .footer-bottom{
     background-color: #e0f2ff;
 }
+
+.footer-content .button{
+    background-color: #e0f2ff;
+    color: black;
+}
+
+.footer-content .button:hover{
+    background-color: #000000;
+    color: #e0f2ff;
+    border: #e0f2ff solid 1px;
+}
+
+.footer-content a{
+    text-decoration: none;
+}
+
+.footer-content a:hover{
+    color: #e0f2ff;
+}
+.social-icons{
+    display: flex;
+}
+
+.social-icons .icone{
+    border: 1px solid #e0f2ff !important;
+    color: #e0f2ff !important;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+}
+
+.social-icons .icone:hover{
+    border: 1px solid #ffffff !important;
+    color: #000000 !important;
+  
+}
+
