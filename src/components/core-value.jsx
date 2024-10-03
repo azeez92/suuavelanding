@@ -7,7 +7,7 @@ import "./core-value.css";
 
 function CoreApp() {
   return (
-    <Container fluid className="core" id="core-value">
+    <Container fluid className="core" id="core-values">
       <Row>
         <Col>
           <h3>Core Values</h3>

@@ -20,9 +20,9 @@ const FooterApp = () => {
             <h4>Quick Links</h4>
             <ul className="list-unstyled">
               <li><a href="#" className="text-white">Home</a></li>
-              <li><a href="#" className="text-white">About</a></li>
-              <li><a href="#demo" className="text-white">Demo</a></li>
-              <li><a href="#" className="text-white">Contact</a></li>
+              <li><a href="#about" className="text-white">About</a></li>
+              <li><a href="https://www.youtube.com/watch?v=rt-9QORRZsI" target="_blank" className="text-white">Demo</a></li>
+              <li><a href="#core-values" className="text-white">Core Values</a></li>
             </ul>
           </Col>
 

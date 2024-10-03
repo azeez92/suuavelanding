@@ -58,3 +58,16 @@
 .artist-story .col {
     flex: 1;
 }
+
+button{
+    background: transparent;
+    color: black !important;
+    border: black solid 1px !important;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #000000 !important;
+    color: #e0f2ff !important;
+    
+}

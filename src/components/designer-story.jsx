@@ -3,6 +3,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import kay from "../assets/images/kay.png";
 import zee from "../assets/images/Zee.png";
+import Nav from 'react-bootstrap/Nav';
+import Button from 'react-bootstrap/Button';
 import "./designer-story.css";
 
 
@@ -17,13 +19,13 @@ function DesignerStoryApp() {
     
     <Col sm={12} lg={6}>
     
-          <h2><strong>Artist Story:</strong> Kay's the Artist</h2>
+          <h2><strong>Artist Story:</strong> Meet Kay</h2>
           <hr />
         
       <p>
         Kay is a talented African fashion artist with a passion for collaboration.
-        She seeks to work with leading fashion designers and brands, aiming to showcase
-        her creativity while earning a fair income. With Suuave, Kay has access to unique benefits, including:
+        He seeks to work with leading fashion designers and brands, aiming to showcase
+        he creativity while earning a fair income. With Suuave, Kay has access to unique benefits, including:
       </p>
       <ul>
         <li>
@@ -41,7 +43,15 @@ function DesignerStoryApp() {
         <li>
           <strong>Promotions and Incentives</strong>: Unlock growth opportunities through promotional programs.
         </li>
+        <li>
+          <strong>Promotions and Incentives</strong>: Unlock growth opportunities through promotional programs.
+        </li>
+        <li>
+          <strong>Promotions and Incentives</strong>: Copyright Protection: Display, license and monetize your works.
+        </li>
       </ul>
+
+      <Nav.Link href="https://www.youtube.com/watch?v=rt-9QORRZsI" target="_blank"> <Button>Learn More</Button></Nav.Link>
    </Col>
   
 
@@ -71,18 +81,17 @@ function DesignerStoryApp() {
     To bring her creative vision to life, she seeks talented African fashion artists who can seamlessly blend traditional African 
     influences with modern urban trends, helping her make a bold statement in the fashion world.</p>
 
-    <p>Zee is committed to working with artists who offer:</p>
+    <p>Zee needs Suuave for:</p>
 
     <ul>
-        <li> Reward Programs & Promotions: Opportunities for growth and recognition.</li>
-        <li> Quality Assurance: A focus on delivering top-tier designs.</li>
-        <li> Ready-to-Use Designs: Illustrations that are readily available to integrate into her collections.</li>
-        <li> Flexible Negotiation: Open discussions for pricing that benefits both parties.</li>
-        <li> Copyright Protection: Ensuring her designs remain unique and secure.</li>
+        <li><strong>Access to Talents: </strong>Find and collaborate with skilled and creative African fashion artists.</li>
+        <li> <strong>Quality Assurance: </strong>Get seamless experience from briefing to delivery.</li>
+        <li><strong> Flexible Pricing:</strong> Negotiate your terms to meet your investment goals.</li>
+        <li><strong>Ready-to-Use Designs:</strong> Boost your collection with a multitude of ready-to-use designs.</li>
+        <li> <strong>Rewards Programs & Promotions:</strong> Unlock Exclusive Rewards and Boost Your Business</li>
     </ul>
 
-    <p>By collaborating with the right artists, Zee aims to create a fashion line that not only celebrates African culture but also 
-    pushes the boundaries of contemporary fashion.</p>
+    <Nav.Link href="https://www.youtube.com/watch?v=rt-9QORRZsI" target="_blank"> <Button>Learn More</Button></Nav.Link>
   
     </Col>
       </Row>
