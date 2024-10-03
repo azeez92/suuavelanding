@@ -14,7 +14,7 @@ const TeamApp = () => {
   return (
     <Container  className="team-section py-5" id="team">
       <div className="title mb-5">
-        <h3 className="">Meet Our Team</h3>
+        <h3 className="">'Meet The Team</h3>
         <p> We’re passionate and forward-thinking individuals of diverse backgrounds, united by the vivid vision and ardent desire to illuminate the African fashion industry.</p>
         <hr />
       </div>
